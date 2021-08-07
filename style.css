@@ -1,0 +1,60 @@
+/* ---- reset ---- */
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: orange;
+}
+
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- my-info container ---- */
+
+#hitbox {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+#myitems {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+#items{
+  color:white;
+  font-size:7rem;
+}
+
+#items:hover {
+  color: orange;
+  font-size: 8rem;
+}
+
+#my-bar {
+  display: flex;
+  height: .25rem;
+  width: 25rem;
+  background-color: orange;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
